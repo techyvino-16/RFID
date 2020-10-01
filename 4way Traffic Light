@@ -1,0 +1,116 @@
+void setup() {
+  // put your setup code here, to run once:
+pinMode(2,OUTPUT);
+pinMode(3,OUTPUT);
+pinMode(4,OUTPUT);
+pinMode(5,OUTPUT);
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  /*
+digitalWrite(2,1);
+digitalWrite(7,1);
+digitalWrite(10,1); //Down Green light
+digitalWrite(13,1);
+delay(5000);
+
+digitalWrite(2,0);
+digitalWrite(7,0);
+digitalWrite(10,0); //OFF ALL Previous
+digitalWrite(13,0);
+
+digitalWrite(3,1);
+digitalWrite(6,1);
+digitalWrite(9,1); //ON Yellow light
+digitalWrite(12,1);
+delay(1000);
+
+digitalWrite(3,0);
+digitalWrite(6,0);
+digitalWrite(9,0); //OFF Yellow light
+digitalWrite(12,0);
+
+digitalWrite(5,1);
+digitalWrite(4,1);
+digitalWrite(10,1); //Right Green light
+digitalWrite(13,1);
+delay(5000);
+
+digitalWrite(5,0);
+digitalWrite(4,0);
+digitalWrite(10,0); //OFF ALL light
+digitalWrite(13,0);
+
+
+digitalWrite(3,1);
+digitalWrite(6,1);
+digitalWrite(9,1); //ON Yellow light
+digitalWrite(12,1);
+delay(1000);
+
+digitalWrite(3,0);
+digitalWrite(6,0);
+digitalWrite(9,0); //OFF Yellow light
+digitalWrite(12,0);
+
+digitalWrite(8,1);
+digitalWrite(4,1);
+digitalWrite(7,1); //ON UP Green light
+digitalWrite(13,1);
+delay(5000);
+
+digitalWrite(8,0);
+digitalWrite(4,0);
+digitalWrite(7,0); //OFF ALL light
+digitalWrite(13,0);
+
+digitalWrite(3,1);
+digitalWrite(6,1);
+digitalWrite(9,1); //ON Yellow light
+digitalWrite(12,1);
+delay(1000);
+
+digitalWrite(3,0);
+digitalWrite(6,0);
+digitalWrite(9,0); //OFF Yellow light
+digitalWrite(12,0);
+
+digitalWrite(11,1);
+digitalWrite(4,1);
+digitalWrite(7,1); //ON Right Green light
+digitalWrite(10,1);
+delay(5000);
+
+digitalWrite(11,0);
+digitalWrite(4,0);
+digitalWrite(7,0); //OFF ALL light
+digitalWrite(10,0);
+
+digitalWrite(3,1);
+digitalWrite(6,1);
+digitalWrite(9,1); //ON Yellow light
+digitalWrite(12,1);
+delay(1000);
+
+digitalWrite(3,0);
+digitalWrite(6,0);
+digitalWrite(9,0); //OFF Yellow light
+digitalWrite(12,0);
+*/
+
+digitalWrite(2,1); //Red light
+digitalWrite(5,1);
+delay(5000);
+digitalWrite(2,0);
+digitalWrite(5,0);
+digitalWrite(3,1); //Yellow
+delay(2000); 
+digitalWrite(3,0);
+digitalWrite(4,1); //Green
+delay(5000);
+digitalWrite(4,0);
+}
